@@ -24,6 +24,7 @@ namespace Funcs {
 
       if (!std::cin) {
 	if (std::cin.eof()) {
+	  std::cout << "\nGoodbye!" << std::endl;
 	  exit(0);
 	}
 	std::cin.clear();
